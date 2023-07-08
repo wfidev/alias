@@ -1,6 +1,6 @@
 on run {name}
   tell application "Address Book"
-  	activate
+  	-- activate
   	set thePeople to every person whose name = name
   	repeat with thePerson in thePeople
   		set mphone to value of (every phone of thePerson whose label = "Mobile")
