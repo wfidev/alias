@@ -1,5 +1,5 @@
 on run {phoneNumber, message}
   tell application "Messages"
-   send message to buddy phoneNumber --of service "SMS"
+   send message to buddy phoneNumber 
   end tell
 end run
